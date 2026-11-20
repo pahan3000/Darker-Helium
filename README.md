@@ -7,7 +7,6 @@ A darker variant of [Helium](https://github.com/darklinkpower/Helium), the Steam
 ## What's different
 - A darker color palette compared to the original Helium, to match the modern Steam UI.
 - The achievements button now opens the achievements list. Works with [Playnite Achievements](https://github.com/justin-delano/PlayniteAchievements).
-- Everything else (layouts, extension support, ThemeModifier options) is inherited from Helium.
 
 ## Installation
 1. Download the latest packaged `pthm` theme file from the [Releases page](https://github.com/pahan3000/Darker-Helium/releases/latest).
