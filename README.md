@@ -30,7 +30,6 @@ If you encounter a bug or have a suggestion, please open an issue in the [Issues
 ## Building the theme
 The theme files live in the [`source`](source) folder. To package them into an installable `.pthm` file:
 
-Playnite Toolbox
 1. Make sure `theme.yaml` in `source` has the correct `Id`, `Name`, `Author` and `Version`.
 2. Open a terminal in your Playnite installation folder, where `Toolbox.exe` is located.
 3. Run:
