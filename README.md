@@ -18,8 +18,6 @@ Darker Helium has its own theme ID, so it installs alongside the original Helium
 ## Support and feature requests
 If you encounter a bug or have a suggestion, please open an issue in the [Issues Tracker](https://github.com/pahan3000/Darker-Helium/issues).
 
-This is a hobby project, so changes that benefit most users are prioritized over very personal tweaks.
-
 
 ## Screenshots
 
