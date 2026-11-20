@@ -1,0 +1,53 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    mc:Ignorable="d">
+
+    <!-- Card-style GroupBox: tinted header strip with a blue accent bar, darker body, clear outline -->
+    <Style TargetType="{x:Type GroupBox}" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="BorderBrush" Value="{DynamicResource GroupBoxBorderBrush}" />
+        <Setter Property="Background" Value="{DynamicResource GroupBoxBackgroundBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="12,10,12,12" />
+        <Setter Property="Margin" Value="0,6,0,10" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GroupBox}">
+                    <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                            Background="{TemplateBinding Background}" CornerRadius="{DynamicResource ControlCornerRadius}">
+                        <DockPanel>
+                            <!-- Header strip -->
+                            <Border DockPanel.Dock="Top"
+                                    BorderThickness="0,0,0,1"
+                                    BorderBrush="{DynamicResource GroupBoxBorderBrush}"
+                                    Background="{DynamicResource GroupBoxHeaderBackgroundBrush}"
+                                    CornerRadius="2,2,0,0"
+                                    Margin="0,0,0,6">
+                                <Grid>
+                                    <Rectangle HorizontalAlignment="Left" Width="3"
+                                               Fill="{DynamicResource GlyphSubBrush}" />
+                                    <TextBlock Style="{DynamicResource BaseTextBlockStyle}"
+                                               Margin="14,8,12,8"
+                                               FontSize="{DynamicResource FontSizeLarge}"
+                                               FontWeight="SemiBold"
+                                               Foreground="{DynamicResource TextBrush}">
+                                        <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                                          ContentSource="Header"
+                                                          RecognizesAccessKey="True" />
+                                    </TextBlock>
+                                </Grid>
+                            </Border>
+                            <!-- Content -->
+                            <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                              Margin="{TemplateBinding Padding}"/>
+                        </DockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
