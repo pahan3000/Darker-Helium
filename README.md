@@ -15,9 +15,6 @@ A darker variant of [Helium](https://github.com/darklinkpower/Helium), the Steam
 
 Darker Helium has its own theme ID, so it installs alongside the original Helium instead of replacing it.
 
-## Support and feature requests
-If you encounter a bug or have a suggestion, please open an issue in the [Issues Tracker](https://github.com/pahan3000/Darker-Helium/issues).
-
 
 ## Screenshots
 
