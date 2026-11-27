@@ -8,7 +8,7 @@ A darker variant of [Helium](https://github.com/darklinkpower/Helium), the Steam
 - A darker color palette compared to the original Helium, to match the modern Steam UI.
 - The achievements button now opens the achievements list. Works with [Playnite Achievements](https://github.com/justin-delano/PlayniteAchievements).
 
-**AI SLOP. DONT EVEN BOTHER**
+**MADE WITH AI. Low effort piece of rubbish.**
 
 
 ## Installation
